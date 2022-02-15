@@ -1,0 +1,35 @@
+{
+  "name": "logo_licey",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production",
+    "parcel": "npx parcel ./src/templates/*.html",
+    "parcel-build": "npx parcel build ./src/templates/*.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "browser-sync": "^2.27.5",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.31",
+    "parcel": "^2.0.1",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.39.2",
+    "sass-loader": "^12.1.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "custom-select": "^1.1.15",
+    "intl-tel-input": "^17.0.13",
+    "normalize.css": "^8.0.1",
+    "swiper": "^7.3.1"
+  }
+}
